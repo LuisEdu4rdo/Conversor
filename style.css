@@ -1,11 +1,23 @@
 body{
-  background: rgb(54, 54, 54);
+  background:white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: antiquewhite;
+  color: white;
   font-family: 'kufam', coursive;
-  
+}
+.titulo{
+  font-family: 'kufam', coursive;
+  color: rgb(54, 54, 54);
+}
+.content{
+  padding: 50px;
+  display: flex;
+  border-radius: 0.8rem;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(54, 54, 54);
+  box-shadow: 10px 15px 50px black;
 }
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 

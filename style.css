@@ -1,5 +1,5 @@
-body{
-  background:white;
+body {
+  background: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,11 +7,13 @@ body{
   font-family: 'kufam', coursive;
 
 }
-.titulo{
+
+.titulo {
   font-family: 'kufam', coursive;
   color: rgb(54, 54, 54);
 }
-.content{
+
+.content {
   padding: 50px;
   display: flex;
   border-radius: 0.8rem;
@@ -20,28 +22,49 @@ body{
   background: rgb(54, 54, 54);
   box-shadow: 10px 15px 50px black;
 }
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
-input{
+div{
+  display: inline;
+  
+}
+
+.tipo_temperatura {
+  /* -webkit-appearance: none; */
+  /* margin: 0; */
   margin: 20px 0px;
   padding: 20px;
-  font-size:20px;
+  font-size: 20px;
   border: none;
-  background-color: rgb(71,71,71);
+  background-color: rgb(71, 71, 71);
   text-align: center;
   color: whitesmoke;
   border-radius: 5px;
 }
-label{
-  font-size: 25px;
-  font-family: 'kufam',cursive;
+
+input {
+  margin: 20px 0px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(71, 71, 71);
+  text-align: center;
+  color: whitesmoke;
+  border-radius: 5px;
 }
-.button{
+
+label {
+  font-size: 25px;
+  font-family: 'kufam', cursive;
+}
+
+.button {
   padding: 20px 90px;
-  font-size:20px;
+  font-size: 20px;
   background: #3095ec;
   color: white;
   border: none;
@@ -49,7 +72,8 @@ label{
   transition: all 0.2s ease-in-out;
   font-family: 'kufam', coursive;
 }
-.glow-button:hover{
+
+.glow-button:hover {
   color: whitesmoke;
   box-shadow: 0 2px 5px #3EA6FF;
 }

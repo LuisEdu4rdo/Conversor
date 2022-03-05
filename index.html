@@ -12,13 +12,13 @@
   <h1 class="titulo">Conversor Temperatura</h1>
   <div class="content">
     <!-- receber o dado do usuario -->    
-    <label for="celsius">Converta de Celsius(°C) para fahrenheit(°F): </label>
+    <label for="celsius">Converta de Celsius(°C) para: </label>
     <div>
-    <input id="celsius" type="number">
+    <input id="celsius" type="number" required>
     <!--caixa de seleção de temperatura-->
-    <select class="tipo_temperatura">
-      <option id="kelvin">Kelvin</option>
-      <option id="fahrenheit">Fahrenheit</option>
+    <select id="temp_select">
+      <option  value="fahrenheit" id="fahrenheit" >Fahrenheit(°F)</option>
+      <option value="kelvin" id="kelvin">Kelvin(°K)</option>
     </select>
   </div>
     <!-- calcular o resultado -->

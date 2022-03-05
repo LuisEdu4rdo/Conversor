@@ -1,5 +1,5 @@
 body {
-  background: white;
+  background: rgb(54, 54, 54);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,16 +10,16 @@ body {
 
 .titulo {
   font-family: 'kufam', coursive;
-  color: rgb(54, 54, 54);
+  color: white;
 }
 
 .content {
-  padding: 50px;
+  padding: 40px;
   display: flex;
   border-radius: 0.8rem;
   align-items: center;
   flex-direction: column;
-  background: rgb(54, 54, 54);
+  background: rgba(54, 54, 54, 0.521);
   box-shadow: 10px 15px 50px black;
 }
 
@@ -28,27 +28,28 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-div{
+
+div {
   display: inline;
-  
+
 }
 
-.tipo_temperatura {
-  /* -webkit-appearance: none; */
-  /* margin: 0; */
+#temp_select {
   margin: 20px 0px;
+  width: 190px;
   padding: 20px;
   font-size: 20px;
   border: none;
   background-color: rgb(71, 71, 71);
   text-align: center;
   color: whitesmoke;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 input {
   margin: 20px 0px;
   padding: 20px;
+  width: 200px;
   font-size: 20px;
   border: none;
   background-color: rgb(71, 71, 71);

@@ -1,16 +1,21 @@
 body {
   background: rgb(54, 54, 54);
+  margin: 0px;
+}
+
+.pagina {
   display: flex;
   flex-direction: column;
+  width: 100vw;
+  height: 100vh;
   align-items: center;
-  color: white;
-  font-family: 'kufam', coursive;
-
+  justify-content: center;
 }
 
 .titulo {
   font-family: 'kufam', coursive;
   color: white;
+  margin: 0px 0px 10px 0px;
 }
 
 .content {
@@ -19,6 +24,8 @@ body {
   border-radius: 0.8rem;
   align-items: center;
   flex-direction: column;
+  color: white;
+  font-family: 'kufam', coursive;
   background: rgba(54, 54, 54, 0.521);
   box-shadow: 10px 15px 50px black;
 }
@@ -31,7 +38,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 div {
   display: inline;
-
 }
 
 #temp_select {

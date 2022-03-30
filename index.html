@@ -9,24 +9,26 @@
 </head>
 
 <body>
-  <h1 class="titulo">Conversor Temperatura</h1>
-  <div class="content">
-    <!-- receber o dado do usuario -->    
-    <label for="celsius">Converta de Celsius(°C) para: </label>
-    <div>
-    <input id="celsius" type="number" required>
-    <!--caixa de seleção de temperatura-->
-    <select id="temp_select">
-      <option  value="fahrenheit" id="fahrenheit" >Fahrenheit(°F)</option>
-      <option value="kelvin" id="kelvin">Kelvin(°K)</option>
-    </select>
-  </div>
-    <!-- calcular o resultado -->
-    <!-- <button onclick="calcular()">CALCULAR</button> -->
-    <a class="button glow-button" onclick="calcular()" target="_blank">CALCULAR</a>
-    <!-- exibir o resultado -->
-    <h2 id="resultado"></h2>
-  </div>
+  <section class="pagina">
+    <h1 class="titulo">Conversor Temperatura</h1>
+    <div class="content">
+      <!-- receber o dado do usuario -->
+      <label for="celsius">Converta de Celsius(°C) para: </label>
+      <div>
+        <input id="celsius" type="number" required>
+        <!--caixa de seleção de temperatura-->
+        <select id="temp_select">
+          <option value="fahrenheit" id="fahrenheit">Fahrenheit(°F)</option>
+          <option value="kelvin" id="kelvin">Kelvin(°K)</option>
+        </select>
+      </div>
+      <!-- calcular o resultado -->
+      <!-- <button onclick="calcular()">CALCULAR</button> -->
+      <a class="button glow-button" onclick="calcular()" target="_blank">CALCULAR</a>
+      <!-- exibir o resultado -->
+      <h2 id="resultado"></h2>
+    </div>
+  </section>
 </body>
 <script src="script.js"></script>
 
